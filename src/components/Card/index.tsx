@@ -2,7 +2,7 @@ import React from 'react';
 import './Card.scss';
 
 const Card = (props: ICard) => {
-  const cardNumber: string = Object.values(props.info.cardNumber).join(' - ');
+  const cardNumber: string = Object.values(props.info.cardNumber).join(' ');
   const cardExpiredDate: string = Object.values(props.info.cardExpiredDate).join('/');
 
   return (

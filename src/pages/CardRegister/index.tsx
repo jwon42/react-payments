@@ -7,12 +7,11 @@ function CardRegister() {
   return (
     <>
       <Header name="카드 추가" />
-      <div className="cardContainer">
-        <Card />
+      <div className="card-container">
         <Card />
         <Card />
       </div>
-      <div className="cardFormContainer"></div>
+      <div className="card-form-container"></div>
     </>
   );
 }

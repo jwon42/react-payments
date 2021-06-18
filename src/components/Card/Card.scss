@@ -6,6 +6,7 @@
   border-radius: 0.5rem;
   box-shadow: rgb(0 0 0 / 15%) 0.1rem 0.1rem 0.2rem 0.1rem;
   font-size: 0.8rem;
+  letter-spacing: 0.1rem;
   color: rgba(22, 22, 22, 0.678);
   background-color: #e6fcf5;
 
@@ -36,6 +37,7 @@
     &__number {
       text-align: center;
       font-size: 1rem;
+      word-spacing: 0.2rem;
     }
   }
 
