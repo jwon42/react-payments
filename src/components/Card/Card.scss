@@ -24,20 +24,27 @@
     height: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
 
     &__ic {
       width: 3rem;
-      height: 2rem;
-      margin-bottom: 0.5rem;
+      height: 2.2rem;
       border-radius: 0.3rem;
       background-color: goldenrod;
     }
 
-    &__number {
+    &__number-container {
       text-align: center;
       font-size: 1rem;
       word-spacing: 0.2rem;
+
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+
+      &__element {
+        width: 15%;
+      }
     }
   }
 
@@ -45,18 +52,56 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+
+    &__owner-name-container {
+      display: flex;
+      flex-direction: row;
+
+      &__element {
+        margin-right: 0.5rem;
+      }
+    }
+
+    &__expired-date-container {
+      display: flex;
+      flex-direction: row;
+      // &__element {
+
+      // }
+    }
   }
 }
 
-// .dBgBxx {
-//   width: 13.6085rem;
-//   height: 8.5rem;
-//   border-radius: 0.4rem;
-//   box-shadow: rgb(0 0 0 / 20%) 0.1rem 0.1rem 0.25rem 0.1rem;
-//   background-color: rgb(210, 210, 210);
-//   margin: 0px;
-//   display: flex;
-//   -webkit-box-align: center;
-//   align-items: center;
-//   -webkit-box-pack: center;
-//   justify-content: center;
+.color {
+  &__default {
+    background-color: #f1f3f5;
+  }
+
+  &__red {
+    background-color: #ffe3e3;
+  }
+
+  &__violet {
+    background-color: #e5dbff;
+  }
+
+  &__blue {
+    background-color: #d0ebff;
+  }
+
+  &__cyan {
+    background-color: #c5f6fa;
+  }
+
+  &__teal {
+    background-color: #c3fae8;
+  }
+
+  &__lime {
+    background-color: #e9fac8;
+  }
+
+  &__yellow {
+    background-color: #fff3bf;
+  }
+}
